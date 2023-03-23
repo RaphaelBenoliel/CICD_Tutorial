@@ -1,11 +1,10 @@
 import { expect } from "chai";
 
 describe('Arrays', () => {
-    describe ("#sort", ()=> {
+    describe("#sort", () => {
         if ('Sorting names array', () =>{
             var names = ['Dany', 'Moshe', 'Adam'];
-            expect(names.sort()).to.be.eql(['Adam', 'Dany' ,'Moshe']);
+            expect(names.sort()).to.be.eql(['Adam11', 'Dany' ,'Moshe']);
         })
-    });
-
+    })
 })
