@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "lint": "eslint src/*",
+    "lint": "eslint src/* --color",
     "dev": "nodemon src/index.js",
     "test": "mocha tests/*.spec.js --color"
   },
