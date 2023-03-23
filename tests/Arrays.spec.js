@@ -1,10 +1,12 @@
-import { expect } from "chai";
+/* eslint-disable no-undef */
+import { expect } from 'chai';
 
 describe('Arrays', () => {
-    describe("#sort", () => {
-        if ('Sorting names array', () =>{
+    describe('#sort', () => {
+        it('Sorting names array', () => {
+            // eslint-disable-next-line no-var
             var names = ['Dany', 'Moshe', 'Adam'];
-            expect(names.sort()).to.be.eql(['Adam11', 'Dany' ,'Moshe']);
-        })
-    })
-})
+            expect(names.sort()).to.be.eql(['Adam', 'Dany', 'Moshe']);
+        });
+    });
+});
