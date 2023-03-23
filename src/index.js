@@ -3,7 +3,7 @@ import express from 'express';
 const port = process.env.PORT || 3000;
 const app = express();
 
-app.get('/', (req, res) => {
+app.get('/', (req, res) =>{
     console.log('A new request has arrived to index.js');
     res.send('<h1 style="color: blue">Hi from the server main page!!</h1>');
 });
