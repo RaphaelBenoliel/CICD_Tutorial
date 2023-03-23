@@ -19,7 +19,7 @@ jobs:
           name: Run tests
           command: npm run test
       - run: 
-          name: Run Linter
+          name: Run linter
           command: npm run lint
 
 workflows:
