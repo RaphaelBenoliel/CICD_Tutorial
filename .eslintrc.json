@@ -10,7 +10,7 @@
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
-    "ignorePatterns": ["page.html", "style.css"],
+    "ignorePatterns": ["page.html", "style.css", "87399.jpg"],
     "rules": {
         "indent": ["error", 4 ]
     }
