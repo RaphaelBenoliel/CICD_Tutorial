@@ -19,11 +19,11 @@ app.set('views', './views');
 app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
-    console.log('A new request has arrived to index');
+    console.log('A new request has arrived to the login form');
     res.render('page');
 });
 app.post('/home', (req, res) => {
-    console.log('A new user has login to page');
+    console.log('A new user has login to the home page');
     res.render('home');
 });
 
