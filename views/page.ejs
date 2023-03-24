@@ -9,14 +9,17 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="label">Maor Hadad Login</h1>
+        <h1 class="label">User Login</h1>
         <form class="login_form" action="home" method="post" name="form" onsubmit="return validated()">
-            <div class="font">Email or Phone</div>
-            <input type="text" name="email">
-            <div id="email_error">Please fill up your Email or Phone</div>
-            <div class="font font2">Password</div>
-            <input type="password" name="password">
-            <div id="pass_error">Please fill up your Password</div>
+            <label class="emailBox">
+                <input type="email" id="email" placeholder="Enter Email">
+                <span class="emailText"></span>
+            </label>
+    
+            <label class="passBox">
+                <input type="password" id="password" placeholder="Enter Password">
+                <span class="passText"></span>
+            </label>
             <button type="submit">Login</button>
         </form>
     </div>
