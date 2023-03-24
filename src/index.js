@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 
 app.get('/apple', (req, res) => {
     console.log('A new apple request has arrived to index.js');
-    res.send('<h1>Hello apple page</h1>');
+    res.sendFile('page.html', { root: __dirname });
 });
 
 app.listen(port, () => {
