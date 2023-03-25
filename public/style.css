@@ -64,8 +64,7 @@ body {
 .emailText,
 .passText{
 	display: block;
-	font-weight: 300;
-	font-style: italic;
+	font-weight: 500;
 	padding: 5px;
 }
 label.valid .emailText,
