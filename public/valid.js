@@ -24,7 +24,7 @@ function email_Verify(){
     if(email.value.match(emailPattern)){
         emailBox.classList.add('valid');
         emailBox.classList.remove('invalid');
-        emailText.innerHTML = "Your Email Address in Valid";
+        emailText.innerHTML = "Your Email Address is Valid";
         return true; 
     }
   
@@ -37,9 +37,7 @@ function pass_Verify(){
     if(password.value.match(passPattern)){
 	    passBox.classList.add('valid');
 		passBox.classList.remove('invalid');
-		passText.innerHTML = "Your Password in Valid"; 
+		passText.innerHTML = "Your Password is Valid"; 
         return true;
 	}    
 }
-
-
